@@ -149,6 +149,7 @@ class Game:
 ╚═══════════════════════════════════════════════════════════╝{Colors.END}
 """
         print(banner)
+        print(f"\n{Colors.CYAN}Welcome, brave adventurer!{Colors.END}")
 
     def start_game(self):
         """Initialize and start the game"""
