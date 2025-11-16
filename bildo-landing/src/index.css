@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #16232A 0%, #075056 100%);
+  }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, #FF5804 0%, #FF7333 100%);
+  }
+}
